@@ -74,8 +74,10 @@ The tool classifies resolutions into these Vietnamese categories:
 
 2. **Deploy to Vercel**:
    - Connect your GitHub repository to Vercel
-   - Add environment variable: `OPENAI_API_KEY`
-   - Deploy automatically
+   - Go to project Settings → Environment Variables
+   - Add `OPENAI_API_KEY` with your OpenAI API key
+   - Select all environments (Production, Preview, Development)
+   - Redeploy your project
 
 ### Environment Variables for Production
 
